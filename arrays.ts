@@ -34,4 +34,5 @@ myArray.forEach(user => console.log(user.name));
     //Tarea 4: Implementa una función que reciba un array de números y retorne el mayor valor.
 
 const greatestNum: number = num.reduce((accum, value) => accum > value ? accum : value );
-console.log(greatestNum);    
+console.log(greatestNum);
+
