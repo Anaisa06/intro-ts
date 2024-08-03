@@ -35,8 +35,12 @@ class carClass {
 
 console.log(carClass.carInfo(newCar));
 
-    //- **Tarea 3:** Implementa una función que reciba un objeto `Car` y retorne un nuevo objeto con las mismas propiedades, pero con el año incrementado en 1.
+    // - **Tarea 3:** Implementa una función que reciba un objeto `Car` y retorne un nuevo objeto con las mismas propiedades, pero con el año incrementado en 1.
 
-//  const myFuction = (car: ICar): ICar => {
-
-//  }   
+ const myFuction = (car: ICar): ICar => {
+    const newCar: ICar = {
+        ...car,
+        año: car.año + 1
+    };
+    return  newCar;
+ }   
